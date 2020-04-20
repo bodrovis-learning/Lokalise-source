@@ -1,24 +1,4 @@
-# README
+# Rails Internationalization: Step-By-Step (source code)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Article: [lokalise.com/blog/rails-i18n](https://lokalise.com/blog/rails-i18n/)
+* Working demo: [lokalise-rails-i18n.herokuapp.com](https://lokalise-rails-i18n.herokuapp.com)
