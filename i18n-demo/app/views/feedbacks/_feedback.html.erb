@@ -1,0 +1,10 @@
+<article>
+  <em>
+    <%= tag.time feedback.created_at, datetime: feedback.created_at %><br>
+    Posted by <%= feedback.author %>
+  </em>
+  <p>
+    <%= feedback.message %>
+  </p>
+  <hr>
+</article>
