@@ -22,6 +22,6 @@ The more information you provide the faster we will be able to find a solution. 
 
 ## Legals
 
-The source code is distributed under the [MIT license]().
+The source code is distributed under the [MIT license](https://github.com/bodrovis-learning/Lokalise-source/blob/master/LICENSE).
 
 (c) Ilya Bodrov ([bodrovis.tech](http://bodrovis.tech))
