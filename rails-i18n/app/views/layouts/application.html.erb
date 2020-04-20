@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>I18nDemo</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><%= link_to t('global.menu.home'), root_path %></li>
+        <li><%= link_to t('global.menu.feedback'), new_feedback_path %></li>
+      </ul>
+      <hr>
+      <ul>
+        <li><%= link_to 'English', root_path(locale: :en) %></li>
+        <li><%= link_to 'Русский', root_path(locale: :ru) %></li>
+      </ul>
+    </nav>
+
+    <%= yield %>
+  </body>
+</html>

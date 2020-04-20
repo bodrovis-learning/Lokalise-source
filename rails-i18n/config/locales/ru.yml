@@ -1,0 +1,28 @@
+ru:
+  activerecord:
+    models:
+      feedback: "Отзыв"
+    attributes:
+      feedback:
+        author: "Ваше имя"
+        message: "Сообщение"
+  global:
+    forms:
+      messages:
+        errors:
+          one: "Не удалось сохранить отзыв! Найдена одна ошибка:"
+          few: "Не удалось сохранить отзыв! Найдены %{count} ошибки:"
+          many: "Не удалось сохранить отзыв! Найдено %{count} ошибок:"
+          other: "Не удалось сохранить отзыв! Найдена %{count} ошибка:"
+      submit: Отправить
+    menu:
+      home: "Главная"
+      feedback: "Отзывы"
+  feedbacks:
+    new:
+      title: "Отзывы"
+    posted_by: "Автор: %{author}"
+  static_pages:
+    index:
+      welcome: "Добро пожаловать!"
+      services_html: "Мы предоставляем услуги для <em>хороших людей</em>."

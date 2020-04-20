@@ -1,0 +1,10 @@
+<article>
+  <em>
+    <%= tag.time l(feedback.created_at, format: :long), datetime: feedback.created_at %><br>
+    <%= t 'feedbacks.posted_by', author: feedback.author %>
+  </em>
+  <p>
+    <%= feedback.message %>
+  </p>
+  <hr>
+</article>

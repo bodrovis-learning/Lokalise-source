@@ -1,0 +1,26 @@
+en:
+  activerecord:
+    models:
+      feedback: "Feedback"
+    attributes:
+      feedback:
+        author: "Your name"
+        message: "Message"
+  global:
+    forms:
+      messages:
+        errors:
+          one: "One error prohibited this feedback from being saved"
+          other: "%{count} errors prohibited this feedback from being saved"
+      submit: Submit
+    menu:
+      home: "Home"
+      feedback: "Feedback"
+  feedbacks:
+    new:
+      title: "Feedback"
+    posted_by: "Posted by %{author}"
+  static_pages:
+    index:
+      welcome: "Welcome!"
+      services_html: "We provide some fancy services to <em>good people</em>."
