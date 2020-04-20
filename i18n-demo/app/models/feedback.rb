@@ -1,2 +1,0 @@
-class Feedback < ApplicationRecord
-end
