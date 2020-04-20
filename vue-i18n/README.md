@@ -1,7 +1,7 @@
-# Getting Started With Vue I18n (source code)
+# Getting Started With Vue I18n
 
-Article: https://lokalise.com/blog/vue-i18n/
-Working demo: https://lokalise-vue-demo.herokuapp.com
+* Article: https://lokalise.com/blog/vue-i18n/
+* Working demo: https://lokalise-vue-demo.herokuapp.com
 
 ## Project setup
 ```
@@ -17,11 +17,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
