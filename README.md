@@ -1,6 +1,6 @@
 # Source code for articles on Lokalise
 
-This repo contains source code for my [articles on Lokalise](https://lokalise.com/blog).
+This repo contains source code for my [articles on Lokalise](https://lokalise.com/blog/author/ilya/).
 
 [Follow me on Twitter](https://twitter.com/bodrovis) to be the first to know about my new articles!
 
