@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="ru">
+    <body>
+      <trans-unit id="welcome" datatype="html">
+        <source>Hello everyone!</source>
+        <target>Всем привет!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">Friendly welcoming message</note>
+        <note priority="1" from="meaning">main header</note>
+      </trans-unit>
+
+      <trans-unit id="323af13292ecc714ab3848b9dff48f923893be32" datatype="html">
+        <source>Portfolio</source>
+        <target>Портфолио</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="18af8f7de89b3c1cebe305b0805a880a35d04eee" datatype="html">
+        <source>/en-US/portfolio</source>
+        <target>/ru/portfolio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b154a4a7e2e3e6c0e2432761a52b7cf8b4c8395" datatype="html">
+        <source>My Portfolio</source>
+        <target>Моё портфолио</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="2aaa6a848257ea436d32c801ac6d7d25a8059edb" datatype="html">
+        <source>{VAR_PLURAL, plural, zero {no tasks} one {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> task} few {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> tasks} many {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> tasks} other {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> tasks} }</source>
+        <target>{VAR_PLURAL, plural, zero {нет заданий} one {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> задание} few {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> задания} many {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> заданий} other {<x id="INTERPOLATION" equiv-text="{{tasksCount}}"/> задания} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="c1df5831cb8b3106de6bf8083aef223d528b2de8" datatype="html">
+        <source>Gender: <x id="ICU" equiv-text="{genderCode, select, 0 {...} 1 {...} other {...}}"/></source>
+        <target>Пол: <x id="ICU" equiv-text="{genderCode, select, 0 {...} 1 {...} other {...}}"/></target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9740425f2ef8a0757676468e5ed8e7e1b7fa473c" datatype="html">
+        <source>{VAR_SELECT, select, 0 {male} 1 {female} other {unknown} }</source>
+        <target>{VAR_SELECT, select, 0 {мужчина} 1 {женщина} other {неизвестно} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="f986261c453f5e38fc1c390b4d903b63765aed86" datatype="html">
+        <source>Copyright 2020</source>
+        <target>Права защищены 2020</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="3990133897753911565" datatype="html">
+        <source>Created by <x id="PH"/></source>
+        <target>Создано <x id="PH"/></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
