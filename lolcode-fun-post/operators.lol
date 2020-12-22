@@ -1,0 +1,24 @@
+HAI 1.2
+
+  BTW addition
+  SUM OF 1 AN "2"
+
+  BTW subtraction
+  DIFF OF 10 AN 5
+
+  BTW multiplication
+  PRODUKT OF 2 AN 3
+
+  BTW DIVISION
+  QOUSHUNT OF 4 AN 2
+
+  BTW INTEGER DIVISION
+  MOD OF 3 AN 2       BTW 1
+
+  BTW MAXIMUM
+  BIGGR OF 10 AN 5
+
+  BTW MINIMUM
+  SMALLR OF 5 AN 7
+
+KTHXBYE
