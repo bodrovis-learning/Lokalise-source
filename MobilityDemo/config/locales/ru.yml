@@ -1,0 +1,40 @@
+ru:
+  activerecord:
+    attributes:
+      superhero:
+        name: Имя
+        description: Описание
+        name_en: Имя (Англ)
+        description_eng: Описание (Англ)
+        name_ru: Имя (Рус)
+        description_ru: Описание (Рус)
+  main_menu:
+    superheroes: Все супергерои
+    add_superhero: Добавить супергероя
+    content_locale: Язык контента
+    search:
+      name: Найти по имени
+  superheroes:
+    create:
+      success: Супергерой создан!
+    update:
+      success: Супергерой обновлён!
+    destroy:
+      success: Супергерой удалён!
+    edit:
+      title: Редактировать
+    index:
+      title: Все герои
+      name: Имя
+      description: Описание
+      show: Показать
+      edit: Редактировать
+      destroy: Удалить
+      new: Добавить нового
+    new:
+      title: Новый супергерой
+    show:
+      title: Редактировать
+  global:
+    actions:
+      submit: Отправить

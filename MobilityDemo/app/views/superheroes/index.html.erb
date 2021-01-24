@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= t '.title' %></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th><%= t '.name' %></th>
+      <th><%= t '.description' %></th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @superheroes.each do |superhero| %>
+      <tr>
+        <td><%= superhero.name %></td>
+        <td><%= superhero.description %></td>
+        <td><%= link_to t('.show'), superhero %></td>
+        <td><%= link_to t('.edit'), edit_superhero_path(superhero) %></td>
+        <td><%= link_to t('.destroy'), superhero, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to t('.new'), new_superhero_path %>

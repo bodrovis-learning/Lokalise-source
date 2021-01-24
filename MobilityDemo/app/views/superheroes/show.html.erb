@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<h1>
+  <%= @superhero.name %>
+</h1>
+
+<p>
+  <%= @superhero.description %>
+</p>
+
+<%= link_to t('.title'), edit_superhero_path(@superhero) %>

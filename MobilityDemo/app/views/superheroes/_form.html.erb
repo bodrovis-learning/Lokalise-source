@@ -1,0 +1,31 @@
+<%= form_with(model: superhero) do |form| %>
+  <% if superhero.errors.any? %>
+    <div id="error_explanation">
+      <ul>
+        <% superhero.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <% all_locales.each do |locale| %>
+    <div class="field">
+      <% name = "name_#{Mobility.normalize_locale(locale)}" %>
+      <%= form.label name %>
+      <%= form.text_field name %>
+    </div>
+
+    <div class="field">
+      <% description = "description_#{Mobility.normalize_locale(locale)}" %>
+      <%= form.label description %>
+      <%= form.text_area description %>
+    </div>
+
+    <hr>
+  <% end %>
+
+  <div class="actions">
+    <%= form.submit t('global.actions.submit') %>
+  </div>
+<% end %>
