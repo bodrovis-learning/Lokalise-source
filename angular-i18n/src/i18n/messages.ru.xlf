@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="ru">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="ru">
     <body>
+      <trans-unit id="847171f94c5e932a67df0c3b4d57e4e10d844b52" datatype="html">
+        <source>About Us</source>
+        <target>О нас</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
+        <source>Home</source>
+        <target>Домашняя</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
+        <source>About</source>
+        <target>О нас</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0d175dbfa58e58e67069b734fd78e7b7a6b83fbb" datatype="html">
+        <source>Main page</source>
+        <target>Главная страница</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+
       <trans-unit id="welcome" datatype="html">
         <source>Hello everyone!</source>
         <target>Всем привет!</target>
@@ -22,7 +56,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="18af8f7de89b3c1cebe305b0805a880a35d04eee" datatype="html">
-        <source>/en-US/portfolio</source>
+        <source>/en/portfolio</source>
         <target>/ru/portfolio</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
